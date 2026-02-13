@@ -1,0 +1,23 @@
+{
+    "name": "static-page-wrapper-component",
+    "version": "0.1.0",
+    "description": "Component that composes @pulumi/static-page-component",
+    "main": "bin/index.js",
+    "types": "bin/index.d.ts",
+    "files": [
+        "bin",
+        "PulumiPlugin.yaml",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "^3.191.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.0",
+        "typescript": "^5.9.2"
+    }
+}
