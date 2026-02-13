@@ -1,5 +1,5 @@
 import * as pulumi from "@pulumi/pulumi";
-import { StaticPage } from "@pulumi/static-page-component";
+import { StaticPage } from "static-page-component";
 
 export interface StaticPageWrapperArgs {
     title: pulumi.Input<string>;

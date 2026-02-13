@@ -14,7 +14,8 @@
         "prepare": "npm run build"
     },
     "dependencies": {
-        "@pulumi/pulumi": "^3.191.0"
+        "@pulumi/pulumi": "^3.191.0",
+        "static-page-component": "github:MeganYTan/static-page-component#v1.0.2"
     },
     "devDependencies": {
         "@types/node": "^24.0.0",
