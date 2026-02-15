@@ -1,1 +1,1 @@
-Component resource that composes `@pulumi/static-page-component`.
+Component resource that composes `@meganytan/static-page-component`.
